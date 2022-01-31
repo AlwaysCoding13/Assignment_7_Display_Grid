@@ -1,0 +1,37 @@
+
+body {
+    background-color:rosybrown;
+}
+
+/* Use 
+display grid
+grid-template-columns
+gird-column-start
+gap
+*/
+
+/*
+Combine styles from page_1_style and page_2_style
+*/
+
+#container {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    background-color:rosybrown;
+    display: grid;
+}
+
+#middle-column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-start: 2;
+    padding: 5px 0;
+    background-color: lightskyblue;
+    gap: 5px;
+}
+
+.item {
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid black;
+}
